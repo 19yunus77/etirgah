@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="az">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Ətirgah</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{
+  --bg:#F7F3EC; --paper:#FFFDF9; --ink:#1F1A17; --muted:#7A6F66; --line:#E6DED2;
+  --accent:#6B2D3C; --accent-2:#8A3F51; --gold:#B08D57; --ok:#3F6B4A;
+  --r:14px; --shadow:0 1px 2px rgba(31,26,23,.06),0 8px 24px rgba(31,26,23,.06);
+}
+*{box-sizing:border-box}
+html,body{margin:0}
+body{background:var(--bg);color:var(--ink);font:15px/1.5 Inter,system-ui,sans-serif;-webkit-font-smoothing:antialiased}
+button,input,select,textarea{font:inherit;color:inherit}
+button{cursor:pointer}
+a{color:var(--accent)}
+.wrap{max-width:1240px;margin:0 auto;padding:0 20px}
+
+/* header */
+header{position:sticky;top:0;z-index:20;background:rgba(247,243,236,.92);backdrop-filter:blur(10px);border-bottom:1px solid var(--line)}
+.bar{display:flex;align-items:center;gap:16px;height:68px}
+.logo{font:italic 600 32px/1 "Cormorant Garamond",serif;color:var(--accent);letter-spacing:.5px;text-decoration:none}
+.logo small{display:block;font:500 10px/1 Inter,sans-serif;letter-spacing:2.5px;text-transform:uppercase;color:var(--gold);font-style:normal;margin-top:3px}
+.search{flex:1;position:relative;max-width:560px}
+.search input{width:100%;height:42px;border:1px solid var(--line);background:var(--paper);border-radius:999px;padding:0 16px 0 40px;outline:none}
+.search input:focus{border-color:var(--gold)}
+.search svg{position:absolute;left:14px;top:12px;opacity:.5}
+.langs{display:flex;border:1px solid var(--line);border-radius:999px;overflow:hidden;background:var(--paper)}
+.langs button{border:0;background:none;padding:7px 11px;font-size:12px;font-weight:600;color:var(--muted)}
+.langs button.on{background:var(--ink);color:#fff}
+.cartbtn{position:relative;border:0;background:var(--accent);color:#fff;height:42px;padding:0 16px;border-radius:999px;display:flex;align-items:center;gap:8px;font-weight:600}
+.cartbtn .n{background:#fff;color:var(--accent);border-radius:999px;min-width:20px;height:20px;font-size:12px;display:grid;place-items:center;padding:0 6px}
+
+/* hero */
+.hero{padding:34px 0 10px}
+.hero h1{font:500 40px/1.1 "Cormorant Garamond",serif;margin:0 0 8px}
+.hero p{margin:0;color:var(--muted);max-width:640px}
+
+/* filters */
+.filters{display:flex;flex-wrap:wrap;gap:10px;align-items:center;padding:18px 0 8px}
+.chips{display:flex;gap:6px;flex-wrap:wrap}
+.chip{border:1px solid var(--line);background:var(--paper);border-radius:999px;padding:6px 13px;font-size:13px;color:var(--ink)}
+.chip.on{background:var(--ink);border-color:var(--ink);color:#fff}
+select{height:34px;border:1px solid var(--line);background:var(--paper);border-radius:999px;padding:0 12px;font-size:13px}
+.sep{width:1px;height:22px;background:var(--line);margin:0 4px}
+.count{margin-left:auto;color:var(--muted);font-size:13px}
+
+/* grid */
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:16px;padding:12px 0 24px}
+.card{background:var(--paper);border:1px solid var(--line);border-radius:var(--r);overflow:hidden;display:flex;flex-direction:column;transition:transform .15s,box-shadow .15s;cursor:pointer}
+.card:hover{transform:translateY(-2px);box-shadow:var(--shadow)}
+.ph{aspect-ratio:4/3;display:grid;place-items:center;position:relative}
+.ph .mono{font:600 46px/1 "Cormorant Garamond",serif;color:rgba(255,255,255,.95);letter-spacing:1px}
+.ph .fam{position:absolute;left:10px;bottom:10px;background:rgba(255,255,255,.88);color:var(--ink);font-size:11px;font-weight:600;border-radius:999px;padding:3px 9px}
+.ph .g{position:absolute;right:10px;top:10px;background:rgba(0,0,0,.25);color:#fff;font-size:11px;font-weight:600;border-radius:999px;padding:3px 8px}
+.cb{padding:12px 14px 14px;display:flex;flex-direction:column;gap:4px;flex:1}
+.brand{font-size:11px;letter-spacing:1.4px;text-transform:uppercase;color:var(--gold);font-weight:600}
+.name{font:600 19px/1.2 "Cormorant Garamond",serif}
+.notes{font-size:12.5px;color:var(--muted);display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.price{margin-top:auto;padding-top:8px;display:flex;align-items:baseline;justify-content:space-between}
+.price b{font-size:16px}
+.price span{font-size:12px;color:var(--muted)}
+.more{display:block;margin:0 auto 50px;border:1px solid var(--ink);background:none;border-radius:999px;padding:10px 26px;font-weight:600}
+.empty{padding:60px 0;text-align:center;color:var(--muted)}
+
+/* modal + drawer */
+.ov{position:fixed;inset:0;background:rgba(31,26,23,.45);z-index:40;display:none}
+.ov.show{display:block}
+.modal{position:fixed;z-index:50;left:50%;top:50%;transform:translate(-50%,-50%);width:min(760px,94vw);max-height:90vh;overflow:auto;background:var(--paper);border-radius:20px;display:none;box-shadow:0 30px 80px rgba(0,0,0,.25)}
+.modal.show{display:block}
+.mh{display:grid;grid-template-columns:240px 1fr}
+.mh .ph{aspect-ratio:auto;height:100%;min-height:240px}
+.mbody{padding:24px 26px}
+.x{position:absolute;right:14px;top:12px;border:0;background:rgba(255,255,255,.9);width:34px;height:34px;border-radius:50%;font-size:20px;line-height:1;z-index:2}
+.mbody .name{font-size:28px;margin:2px 0 6px}
+.tags{display:flex;gap:6px;flex-wrap:wrap;margin:6px 0 12px}
+.tag{font-size:12px;background:var(--bg);border:1px solid var(--line);border-radius:999px;padding:3px 10px}
+.pyr{display:grid;gap:8px;margin:14px 0}
+.pyr div{display:grid;grid-template-columns:110px 1fr;gap:10px;font-size:13.5px}
+.pyr dt{color:var(--muted)}
+.desc{font-size:14.5px;margin:10px 0 0}
+.nodata{background:var(--bg);border:1px dashed var(--line);border-radius:10px;padding:12px;color:var(--muted);font-size:13.5px}
+.buy{display:flex;align-items:center;gap:12px;flex-wrap:wrap;border-top:1px solid var(--line);margin-top:18px;padding-top:16px}
+.qty{display:flex;align-items:center;border:1px solid var(--line);border-radius:999px;overflow:hidden;background:#fff}
+.qty button{border:0;background:none;width:36px;height:38px;font-size:18px}
+.qty input{width:56px;border:0;text-align:center;height:38px;outline:none}
+.qty em{font-style:normal;color:var(--muted);font-size:13px;padding-right:12px}
+.total{font-weight:600;font-size:18px}
+.primary{border:0;background:var(--accent);color:#fff;border-radius:999px;padding:11px 22px;font-weight:600}
+.primary:hover{background:var(--accent-2)}
+.ghost{border:1px solid var(--line);background:#fff;border-radius:999px;padding:10px 18px;font-weight:600}
+
+.drawer{position:fixed;right:0;top:0;bottom:0;width:min(420px,100vw);background:var(--paper);z-index:50;transform:translateX(105%);transition:transform .25s,visibility .25s;visibility:hidden;overflow:auto}
+.drawer.show{transform:none;visibility:visible;box-shadow:-20px 0 60px rgba(0,0,0,.15)}
+.dh{position:sticky;top:0;background:var(--paper);z-index:1;display:flex;align-items:center;justify-content:space-between;padding:18px 20px;border-bottom:1px solid var(--line)}
+.dh h3{margin:0;font:600 24px/1 "Cormorant Garamond",serif}
+.db{padding:4px 20px}
+.line{display:grid;grid-template-columns:1fr auto;gap:6px 10px;padding:12px 0;border-bottom:1px solid var(--line)}
+.line .nm{font-weight:600;font-size:14px}
+.line .br{font-size:11px;color:var(--gold);letter-spacing:1px;text-transform:uppercase}
+.line .rm{border:0;background:none;color:var(--muted);font-size:12px;text-decoration:underline;padding:0;justify-self:start}
+.line .qty input{width:46px}
+.line .qty button{width:30px;height:32px}
+.line .qty input{height:32px}
+.df{border-top:1px solid var(--line);padding:16px 20px;display:grid;gap:10px}
+.df .sum{display:flex;justify-content:space-between;font-size:17px;font-weight:600}
+.form{display:grid;gap:8px}
+.form input,.form textarea{border:1px solid var(--line);background:#fff;border-radius:10px;padding:10px 12px;outline:none;width:100%}
+.form input:focus,.form textarea:focus{border-color:var(--gold)}
+.form textarea{min-height:60px;resize:vertical}
+.err{color:#A33;font-size:13px}
+.done{background:var(--bg);border-radius:12px;padding:14px;font-size:13.5px;white-space:pre-wrap}
+.toast{position:fixed;left:50%;bottom:24px;transform:translateX(-50%) translateY(20px);background:var(--ink);color:#fff;padding:10px 18px;border-radius:999px;font-size:14px;opacity:0;transition:.2s;z-index:60;pointer-events:none}
+.toast.show{opacity:1;transform:translateX(-50%)}
+footer{border-top:1px solid var(--line);padding:24px 0 40px;color:var(--muted);font-size:13px}
+
+@media (max-width:720px){
+  .bar{height:auto;flex-wrap:wrap;padding:10px 0;gap:10px}
+  .search{order:3;flex-basis:100%;max-width:none}
+  .hero h1{font-size:30px}
+  .mh{grid-template-columns:1fr}
+  .mh .ph{min-height:150px}
+  .grid{grid-template-columns:repeat(2,1fr);gap:10px}
+  .name{font-size:17px}
+  .ph .mono{font-size:34px}
+  .count{flex-basis:100%;margin:0}
+  .sep{display:none}
+}
+</style>
+</head>
+<body>
+<header>
+  <div class="wrap bar">
+    <a class="logo" href="#" onclick="resetAll();return false">Ətirgah<small data-t="tag"></small></a>
+    <label class="search">
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
+      <input id="q" type="search" autocomplete="off">
+    </label>
+    <div class="langs" id="langs">
+      <button data-l="0">AZ</button><button data-l="1">RU</button><button data-l="2">EN</button>
+    </div>
+    <button class="cartbtn" id="openCart"><span data-t="cart"></span><span class="n" id="cartN">0</span></button>
+  </div>
+</header>
+
+<main class="wrap">
+  <section class="hero">
+    <h1 data-t="h1"></h1>
+    <p data-t="sub"></p>
+  </section>
+
+  <section class="filters">
+    <div class="chips" id="gChips"></div>
+    <span class="sep"></span>
+    <div class="chips" id="famChips"></div>
+    <span class="sep"></span>
+    <select id="season"></select>
+    <select id="brand"></select>
+    <select id="sort"></select>
+    <span class="count" id="count"></span>
+  </section>
+
+  <section class="grid" id="grid"></section>
+  <button class="more" id="more"></button>
+</main>
+
+<footer class="wrap" data-t="foot"></footer>
+
+<div class="ov" id="ov"></div>
+<div class="modal" id="modal"></div>
+<aside class="drawer" id="drawer">
+  <div class="dh"><h3 data-t="cart"></h3><button class="x" style="position:static" id="closeCart">×</button></div>
+  <div class="db" id="lines"></div>
+  <div class="df" id="foot"></div>
+</aside>
+<div class="toast" id="toast"></div>
+
+<script>
+/* ===== settings: put the shop's WhatsApp number here, digits only, e.g. "994501234567" ===== */
+const WHATSAPP = "";
+const DEFAULT_GRAMS = 10;
+
+const DATA = __DATA__;
+const T = {
+ tag:["ətir yağları","парфюмерные масла","perfume oils"],
+ cart:["Səbət","Корзина","Cart"],
+ h1:["Sevdiyiniz ətri tapın","Найдите свой аромат","Find your fragrance"],
+ sub:["Məşhur ətirlərin yağ əsaslı versiyaları — istədiyiniz qədər, qramla. Ad, brend və ya not üzrə axtarın: məsələn, “vanil”, “odunsu”, “Sauvage”.",
+      "Масляные версии известных ароматов — в любом количестве, на граммы. Ищите по названию, бренду или нотам: например, «ваниль», «древесный», «Sauvage».",
+      "Oil versions of famous fragrances — any amount, by the gram. Search by name, brand or notes: e.g. “vanilla”, “woody”, “Sauvage”."],
+ search:["Ətir, brend və ya not axtarın…","Поиск по аромату, бренду или нотам…","Search fragrance, brand or note…"],
+ all:["Hamısı","Все","All"], M:["Kişi","Мужские","Men"], W:["Qadın","Женские","Women"], U:["Uniseks","Унисекс","Unisex"],
+ fam:{woody:["Odunsu","Древесные","Woody"],floral:["Çiçəkli","Цветочные","Floral"],oriental:["Şərq","Восточные","Oriental"],
+      fresh:["Təravətli","Свежие","Fresh"],gourmand:["Qurman","Гурманские","Gourmand"],leather:["Dəri","Кожаные","Leather"]},
+ season:["Mövsüm: hamısı","Сезон: любой","Season: any"],
+ seasons:{ALL:["Bütün fəsillər","Всесезонные","All seasons"],WARM:["Yaz–yay","Весна–лето","Spring–summer"],COLD:["Payız–qış, axşam","Осень–зима, вечер","Autumn–winter, evening"],COLDDAY:["Payız–qış","Осень–зима","Autumn–winter"],SPRING:["Yaz–payız","Весна–осень","Spring–autumn"]},
+ brand:["Brend: hamısı","Бренд: все","Brand: all"],
+ sort:[["Ada görə","По названию","By name"],["Ucuzdan bahaya","Сначала дешевле","Price: low to high"],["Bahadan ucuza","Сначала дороже","Price: high to low"]],
+ found:["ətir","аромат(ов)","fragrances"],
+ more:["Daha çox göstər","Показать ещё","Show more"],
+ empty:["Heç nə tapılmadı. Başqa söz yoxlayın.","Ничего не найдено. Попробуйте другое слово.","Nothing found. Try another word."],
+ perg:["/ 1 qram","/ 1 грамм","/ 1 gram"], g:["q","г","g"],
+ top:["Üst notlar","Верхние ноты","Top notes"], heart:["Ürək","Сердце","Heart"], base:["Baza","База","Base"], seasonL:["Mövsüm","Сезон","Season"],
+ nodata:["Bu ətirin təsviri tezliklə əlavə olunacaq. Notlar haqqında məsləhətçimizdən soruşa bilərsiniz.","Описание этого аромата скоро появится. О нотах можно спросить у консультанта.","Description coming soon. Ask our consultant about the notes."],
+ add:["Səbətə at","В корзину","Add to cart"], added:["Səbətə əlavə olundu","Добавлено в корзину","Added to cart"],
+ amount:["Miqdar","Количество","Amount"], total:["Cəmi","Итого","Total"],
+ cartEmpty:["Səbət boşdur","Корзина пуста","Your cart is empty"], remove:["Sil","Удалить","Remove"],
+ name:["Adınız","Ваше имя","Your name"], phone:["Telefon","Телефон","Phone"], addr:["Çatdırılma ünvanı","Адрес доставки","Delivery address"], note:["Qeyd (istəyə görə)","Комментарий (необязательно)","Note (optional)"],
+ order:["Sifariş ver","Оформить заказ","Place order"], need:["Ad, telefon və ünvanı doldurun","Заполните имя, телефон и адрес","Please fill in name, phone and address"],
+ sendWa:["WhatsApp-da göndər","Отправить в WhatsApp","Send via WhatsApp"], copy:["Mətni kopyala","Скопировать текст","Copy text"], copied:["Kopyalandı","Скопировано","Copied"],
+ ready:["Sifarişiniz hazırdır. Göndərmək üçün aşağıdakı düyməni basın.","Заказ сформирован. Нажмите кнопку ниже, чтобы отправить его.","Your order is ready. Press the button below to send it."],
+ noWa:["Mağazanın WhatsApp nömrəsi hələ qoşulmayıb — mətni kopyalayıb göndərin.","Номер WhatsApp магазина пока не подключён — скопируйте текст и отправьте.","The shop's WhatsApp number isn't set yet — copy the text and send it."],
+ ask:["qiyməti soruşun","цена по запросу","price on request"],
+ foot:["Ətirgah · Bakı · Qiymətlər 1 qram ətir yağı üçündür; flakon və əsas pulsuzdur.","Ətirgah · Баку · Цены указаны за 1 грамм масла; флакон и основа бесплатно.","Ətirgah · Baku · Prices are per 1 gram of oil; bottle and base are free."],
+ orderHead:["Yeni sifariş — Ətirgah","Новый заказ — Ətirgah","New order — Ətirgah"],
+};
+const FAMCOL={woody:["#7A5A3A","#B08D57"],floral:["#B0687A","#E0A9B2"],oriental:["#6B2D3C","#B06A3E"],fresh:["#3F6E7A","#8FC0BE"],gourmand:["#8A5A3C","#D6A26A"],leather:["#3A2E28","#7A5F4A"],none:["#5F5850","#A79C8F"]};
+
+let L=0; try{L=+localStorage.getItem("eg_lang")||0}catch(e){}
+const P=DATA.p.map((r,i)=>({id:i,n:r[0],b:r[1],g:r[2],p:r[3],ok:r[4],inf:r[5]>=0?DATA.i[r[5]]:null}));
+function famKey(info){ if(!info) return "none"; const f=info.f[2];
+  if(/Gourmand/i.test(f)) return "gourmand"; if(/Leather/i.test(f)) return "leather";
+  if(/^(Oriental|Amber)/i.test(f)) return "oriental"; if(/^Floral/i.test(f)) return "floral";
+  if(/Citrus|Aquatic|Fougère|Aromatic/i.test(f)) return "fresh"; return "woody"; }
+function seaKey(info){ if(!info) return ""; const s=info.s[2];
+  return s.startsWith("All")?"ALL":s.startsWith("Spring–summer")?"WARM":s.startsWith("Spring–autumn")?"SPRING":s.includes("evening")&&s.includes("day")?"COLDDAY":"COLD"; }
+P.forEach(p=>{p.fk=famKey(p.inf); p.sk=seaKey(p.inf);
+  p.short=p.n.startsWith(p.b+" ")?p.n.slice(p.b.length+1):p.n;
+  p.hay=(p.n+" "+(p.inf?[0,1,2].map(l=>[p.inf.f[l],p.inf.t[l],p.inf.h[l],p.inf.b[l]].join(" ")).join(" "):"")).toLowerCase();});
+
+const st={q:"",g:"",fam:"",season:"",brand:"",sort:0,shown:48};
+let cart=[]; try{cart=JSON.parse(localStorage.getItem("eg_cart")||"[]")}catch(e){}
+const $=id=>document.getElementById(id);
+const t=k=>Array.isArray(T[k])?T[k][L]:k;
+const money=v=>v.toFixed(2).replace(/\.00$/,"")+" ₼";
+const esc=s=>String(s).replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+function mono(b){const w=b.replace(/\(.*?\)/g,"").trim().split(/\s+/);return (w.length>1?w[0][0]+w[1][0]:b.slice(0,2)).toUpperCase();}
+function ph(p,big){const c=FAMCOL[p.fk];return `<div class="ph" style="background:linear-gradient(135deg,${c[0]},${c[1]})">
+  <span class="mono">${esc(mono(p.b))}</span>${p.inf?`<span class="fam">${esc(T.fam[p.fk]?T.fam[p.fk][L]:"")}</span>`:""}<span class="g">${esc(T[p.g]?T[p.g][L]:"")}</span></div>`;}
+
+function save(){try{localStorage.setItem("eg_cart",JSON.stringify(cart));localStorage.setItem("eg_lang",L)}catch(e){}}
+function toast(m){const e=$("toast");e.textContent=m;e.classList.add("show");clearTimeout(toast.t);toast.t=setTimeout(()=>e.classList.remove("show"),1600);}
+
+function staticText(){
+  document.documentElement.lang=["az","ru","en"][L];
+  document.querySelectorAll("[data-t]").forEach(e=>e.textContent=t(e.dataset.t));
+  $("q").placeholder=t("search");
+  document.querySelectorAll("#langs button").forEach(b=>b.classList.toggle("on",+b.dataset.l===L));
+  $("gChips").innerHTML=["","M","W","U"].map(g=>`<button class="chip ${st.g===g?"on":""}" data-g="${g}">${g?T[g][L]:t("all")}</button>`).join("");
+  $("famChips").innerHTML=Object.keys(T.fam).map(k=>`<button class="chip ${st.fam===k?"on":""}" data-f="${k}">${T.fam[k][L]}</button>`).join("");
+  $("season").innerHTML=`<option value="">${t("season")}</option>`+Object.keys(T.seasons).map(k=>`<option value="${k}" ${st.season===k?"selected":""}>${T.seasons[k][L]}</option>`).join("");
+  const brands=[...new Set(P.map(p=>p.b))].sort((a,b)=>a.localeCompare(b));
+  $("brand").innerHTML=`<option value="">${t("brand")}</option>`+brands.map(b=>`<option ${st.brand===b?"selected":""}>${esc(b)}</option>`).join("");
+  $("sort").innerHTML=T.sort.map((s,i)=>`<option value="${i}" ${st.sort===i?"selected":""}>${s[L]}</option>`).join("");
+  $("more").textContent=t("more");
+}
+function filtered(){
+  const words=st.q.toLowerCase().split(/\s+/).filter(Boolean);
+  let r=P.filter(p=>(!st.g||p.g===st.g)&&(!st.fam||p.fk===st.fam)&&(!st.season||p.sk===st.season)&&(!st.brand||p.b===st.brand)&&words.every(w=>p.hay.includes(w)));
+  if(st.sort===1) r.sort((a,b)=>(a.p||99)-(b.p||99)); else if(st.sort===2) r.sort((a,b)=>b.p-a.p);
+  return r;
+}
+function render(){
+  const r=filtered();
+  $("count").textContent=r.length+" "+t("found");
+  $("grid").innerHTML=r.slice(0,st.shown).map(p=>`<article class="card" data-id="${p.id}">${ph(p)}
+   <div class="cb"><div class="brand" lang="en">${esc(p.b)}</div><div class="name">${esc(p.short)}</div>
+   <div class="notes">${p.inf?esc([p.inf.t[L],p.inf.h[L]].filter(Boolean).join(", ")):""}</div>
+   <div class="price">${p.p>0?`<b>${money(p.p)}</b><span>${t("perg")}</span>`:`<span>${t("ask")}</span>`}</div></div></article>`).join("")
+   || `<div class="empty">${t("empty")}</div>`;
+  $("more").style.display=r.length>st.shown?"block":"none";
+}
+function openP(id){
+  const p=P[id]; const i=p.inf;
+  $("modal").innerHTML=`<button class="x" onclick="closeAll()">×</button><div class="mh">${ph(p)}<div class="mbody">
+   <div class="brand" lang="en">${esc(p.b)}</div><div class="name">${esc(p.short)}</div>
+   <div class="tags"><span class="tag">${T[p.g][L]}</span>${i?`<span class="tag">${esc(i.f[L])}</span><span class="tag">${esc(i.s[L])}</span>`:""}</div>
+   ${i?`<dl class="pyr">${i.t[L]?`<div><dt>${t("top")}</dt><dd style="margin:0">${esc(i.t[L])}</dd></div>`:""}
+        ${i.h[L]?`<div><dt>${t("heart")}</dt><dd style="margin:0">${esc(i.h[L])}</dd></div>`:""}
+        ${i.b[L]?`<div><dt>${t("base")}</dt><dd style="margin:0">${esc(i.b[L])}</dd></div>`:""}</dl>
+        <p class="desc">${esc(i.d[L])}</p>`:`<div class="nodata">${t("nodata")}</div>`}
+   <div class="buy">
+     <div class="qty"><button onclick="step(-1)">−</button><input id="gq" type="number" min="1" value="${DEFAULT_GRAMS}" oninput="calc(${id})"><em>${t("g")}</em><button onclick="step(1)">+</button></div>
+     <span class="total" id="tot"></span>
+     <button class="primary" onclick="add(${id})">${t("add")}</button>
+   </div></div></div>`;
+  window._cur=id; calc(id);
+  $("modal").classList.add("show"); $("ov").classList.add("show");
+}
+function step(d){const e=$("gq");e.value=Math.max(1,(+e.value||0)+d);calc(window._cur);}
+function calc(id){const g=Math.max(0,+$("gq").value||0);const p=P[id];$("tot").textContent=p.p>0?money(g*p.p):"";}
+function add(id){const g=Math.max(1,Math.round(+$("gq").value||DEFAULT_GRAMS));const ex=cart.find(c=>c.id===id);
+  if(ex) ex.g+=g; else cart.push({id,g}); save(); cartUI(); toast(t("added")); closeAll();}
+function cartUI(){
+  $("cartN").textContent=cart.length;
+  if(!cart.length){$("lines").innerHTML=`<div class="empty">${t("cartEmpty")}</div>`;$("foot").innerHTML="";return;}
+  $("lines").innerHTML=cart.map((c,k)=>{const p=P[c.id];return `<div class="line"><div><div class="br" lang="en">${esc(p.b)}</div><div class="nm">${esc(p.short)}</div>
+   <button class="rm" onclick="rm(${k})">${t("remove")}</button></div>
+   <div style="text-align:right"><div class="qty"><button onclick="cq(${k},-1)">−</button><input type="number" min="1" value="${c.g}" onchange="sq(${k},this.value)"><em>${t("g")}</em><button onclick="cq(${k},1)">+</button></div>
+   <div style="margin-top:6px;font-weight:600">${p.p>0?money(c.g*p.p):t("ask")}</div></div></div>`}).join("");
+  $("foot").innerHTML=`<div class="sum"><span>${t("total")}</span><span>${money(sum())}</span></div>
+   <div class="form"><input id="fn" placeholder="${t("name")}"><input id="fp" type="tel" placeholder="${t("phone")}"><input id="fa" placeholder="${t("addr")}"><textarea id="fc" placeholder="${t("note")}"></textarea></div>
+   <div class="err" id="ferr"></div><button class="primary" onclick="order()">${t("order")}</button><div id="res"></div>`;
+}
+const sum=()=>cart.reduce((s,c)=>s+c.g*P[c.id].p,0);
+function rm(k){cart.splice(k,1);save();cartUI();}
+function cq(k,d){cart[k].g=Math.max(1,cart[k].g+d);save();cartUI();}
+function sq(k,v){cart[k].g=Math.max(1,Math.round(+v||1));save();cartUI();}
+function order(){
+  const n=$("fn").value.trim(),ph=$("fp").value.trim(),a=$("fa").value.trim(),c=$("fc").value.trim();
+  if(!n||!ph||!a){$("ferr").textContent=t("need");return;} $("ferr").textContent="";
+  const txt=[t("orderHead"),"",...cart.map((x,i)=>{const p=P[x.id];return `${i+1}. ${p.n} — ${x.g} ${t("g")}${p.p>0?" × "+money(p.p)+" = "+money(x.g*p.p):" ("+t("ask")+")"}`}),
+    "",`${t("total")}: ${money(sum())}`,"",`${t("name")}: ${n}`,`${t("phone")}: ${ph}`,`${t("addr")}: ${a}`].concat(c?[`${t("note")}: ${c}`]:[]).join("\n");
+  window._txt=txt;
+  $("res").innerHTML=`<p style="font-size:13.5px;margin:6px 0">${t("ready")}</p><div class="done">${esc(txt)}</div>
+   <div style="display:flex;gap:8px;margin-top:10px;flex-wrap:wrap">${WHATSAPP?`<a class="primary" style="text-decoration:none" href="https://wa.me/${WHATSAPP}?text=${encodeURIComponent(txt)}" target="_blank" rel="noopener">${t("sendWa")}</a>`:""}
+   <button class="ghost" onclick="cp()">${t("copy")}</button></div>${WHATSAPP?"":`<p style="font-size:12.5px;color:var(--muted)">${t("noWa")}</p>`}`;
+}
+function cp(){navigator.clipboard.writeText(window._txt).then(()=>toast(t("copied")),()=>{});}
+function closeAll(){$("modal").classList.remove("show");$("drawer").classList.remove("show");$("ov").classList.remove("show");}
+function resetAll(){Object.assign(st,{q:"",g:"",fam:"",season:"",brand:"",sort:0,shown:48});$("q").value="";staticText();render();scrollTo(0,0);}
+
+$("q").addEventListener("input",e=>{st.q=e.target.value;st.shown=48;render();});
+$("gChips").addEventListener("click",e=>{const b=e.target.closest("[data-g]");if(!b)return;st.g=st.g===b.dataset.g?"":b.dataset.g;st.shown=48;staticText();render();});
+$("famChips").addEventListener("click",e=>{const b=e.target.closest("[data-f]");if(!b)return;st.fam=st.fam===b.dataset.f?"":b.dataset.f;st.shown=48;staticText();render();});
+$("season").onchange=e=>{st.season=e.target.value;st.shown=48;render();};
+$("brand").onchange=e=>{st.brand=e.target.value;st.shown=48;render();};
+$("sort").onchange=e=>{st.sort=+e.target.value;render();};
+$("more").onclick=()=>{st.shown+=48;render();};
+$("grid").addEventListener("click",e=>{const c=e.target.closest(".card");if(c)openP(+c.dataset.id);});
+$("langs").addEventListener("click",e=>{const b=e.target.closest("button");if(!b)return;L=+b.dataset.l;save();staticText();render();cartUI();if($("modal").classList.contains("show"))openP(window._cur);});
+$("openCart").onclick=()=>{cartUI();$("drawer").classList.add("show");$("ov").classList.add("show");};
+$("closeCart").onclick=closeAll; $("ov").onclick=closeAll;
+document.addEventListener("keydown",e=>{if(e.key==="Escape")closeAll();});
+staticText(); render(); cartUI();
+</script>
+</body>
+</html>
