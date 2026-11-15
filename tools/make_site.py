@@ -4,10 +4,11 @@ src = sys.argv[1] if len(sys.argv) > 1 else 'Anbar_tesvir.xlsx'
 df = pd.read_excel(src).fillna(''); cols = df.columns.tolist()
 info, key, prods = [], {}, []
 def hidden(r):
-    # Hide items whose own name (without brand) has '*' or letters in parentheses, e.g. (A), (T), (S)
+    # Hide items whose own name (without brand) has '*' or a separate marker with letters in parentheses, e.g. ' (A)', ' (T)'.
+    # Parentheses glued to a word, like 'Generation(s)', are part of the name and stay.
     n, b = str(r['Məhsulun adı']), str(r['Qrup'])
     own = n[len(b) + 1:] if n.startswith(b + ' ') else n
-    return '*' in own or re.search(r'\([^)]*[^\W\d_][^)]*\)', own) is not None
+    return '*' in own or re.search(r'\s\([^)]*[^\W\d_][^)]*\)', own) is not None
 skipped = 0
 for _, r in df.iterrows():
     if hidden(r):
