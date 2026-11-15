@@ -220,3 +220,7 @@ G.update({
 })
 G.update({'cranberry':('клюква','mərcanı'),'white flowers':('белые цветы','ağ çiçəklər'),'cola':('кола','kola'),
  'bubble gum':('жевательная резинка','saqqız'),'grapefruit blossom':('цветок грейпфрута','qreypfrut çiçəyi')})
+G.update({'akigalawood':('акигалавуд','akiqala ağacı'),'bracken':('папоротник','qıjı'),'chocolate':('шоколад','şokolad'),
+ 'clementine':('клементин','klementin'),'coumarin':('кумарин','kumarin'),'hay':('сено','quru ot'),'lemongrass':('лемонграсс','limon otu'),
+ 'limoncello':('лимончелло','limonçello'),'milk':('молоко','süd'),'tangerine':('тангерин','naringi'),'tiare':('тиаре','tiare'),
+ 'tulip':('тюльпан','lalə'),'white tea':('белый чай','ağ çay')})

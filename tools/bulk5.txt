@@ -1,0 +1,409 @@
+## Amouage
+Dia W|Floral|peach,orange blossom|rose,iris,lily of the valley|musk,vanilla,incense|SPRING
+Dia M|Woody Floral Musk|orange blossom,neroli|iris,incense|musk,leather,cedar|ALL
+Journey M|Oriental Woody|cardamom,pink pepper|osmanthus,jasmine|leather,tobacco leaf,cedar|COLD
+Journey W|Floral Chypre|clementine,pepper|osmanthus,jasmine,rose|cypress,musk,leather|ALL
+Opus V|Oriental Woody|nutmeg|rose,oud|amber,leather|COLD
+Sunshine W|Oriental Floral|almond,lavender|jasmine,vanilla|amber,patchouli|COLDDAY
+Ciel Pour Femme|Floral|bergamot|rose,iris,jasmine|sandalwood,musk|SPRING
+Bracken|Woody Aromatic|bergamot,pepper|bracken,lavender|vetiver,moss|ALL
+## Anna Sui
+Fantasia|Floral Fruity|pink grapefruit,mandarin|orchid,jasmine|vanilla,musk|SPRING
+Flight Of Fancy|Floral Fruity|pear,raspberry|heliotrope,peony|musk,cedar|SPRING
+Lucky Wish|Floral Fruity|bergamot,raspberry|rose,jasmine|vanilla,musk|SPRING
+Sui Dreams|Floral Fruity|watermelon,mandarin|freesia,lily of the valley|musk,woody notes|WARM
+## Antonio Banderas
+Blue Seduction for Woman|Floral Fruity|pear,bergamot|jasmine,water lily|musk,amber|WARM
+Her Golden Secret|Floral Fruity|mandarin,pear|jasmine,orange blossom|vanilla,musk|ALL
+## Aquolina
+Gold Sugar|Oriental Gourmand|cherry,peach|marshmallow,orange blossom|vanilla,caramel,musk|COLD
+## Arabic
+Jasmin|Floral|jasmine|jasmine|musk|SPRING
+Lavanta|Aromatic Fougère|lavender|lavender|musk|ALL
+Lilac|Floral|lilac|lilac|musk|SPRING
+Magnolia|Floral|magnolia|magnolia|musk|SPRING
+Mango|Citrus Fruity|mango|tropical fruits|musk|WARM
+Musk|Floral Musk||musk|white musk|ALL
+Musk Tahara|Floral Musk||white musk|musk|ALL
+Musc Roza|Floral Musk|rose|rose|musk|ALL
+Musc Lilac|Floral Musk|lilac|lilac|musk|SPRING
+Musc Honey|Oriental Gourmand|honey|honey|musk|COLDDAY
+Musc Granata|Floral Musk|pomegranate|pomegranate|musk|ALL
+Pink Rose|Floral|rose|rose|musk|SPRING
+Rose Arabic|Floral|rose|rose|musk,amber|ALL
+Yasemen|Floral|lilac|lilac|musk|SPRING
+Yemiş|Citrus Fruity|melon|melon|musk|WARM
+Chocolate|Oriental Gourmand|cacao|chocolate|vanilla|COLD
+Tropical Lemon|Citrus Fruity|lemon|tropical fruits|musk|WARM
+Bakhour|Oriental Woody|incense|oud|amber|COLD
+## Armand Basi
+In Blue|Woody Aquatic|bergamot,lemon|pepper,sea notes|cedar,musk|WARM
+## Atelier Cologne
+Silver Iris|Floral|bergamot,lemon|iris|vanilla,musk|ALL
+## Avon
+Far Away|Oriental Floral|peach,freesia|jasmine,orchid|vanilla,amber,sandalwood|COLD
+Little Black Dress|Floral|lemon,mandarin|jasmine,rose|cedar,musk|ALL
+## Azzaro
+Chrome Sport|Woody Aquatic|lemon,bergamot|sea notes,ginger|musk,woody notes|WARM
+Mademoiselle|Floral Fruity|pear,mandarin|rose,jasmine|musk,vanilla|SPRING
+Visit M|Woody Spicy|bergamot,lavender|cardamom,pepper|vetiver,tonka bean|ALL
+## Balenciaga
+Flora Botanica|Floral|mint,mandarin|rose,peony|vetiver,patchouli|SPRING
+## Bond No 9
+Hamptons|Floral Fruity|bergamot,lemon|jasmine,lily of the valley|musk,cedar|WARM
+Manhattan|Woody Floral Musk|pink pepper|iris,jasmine|musk,amber|ALL
+NoMad|Floral|bergamot|lily,rose|musk,sandalwood|ALL
+The Scent of Peace|Floral Fruity|blackcurrant,grapefruit|lily of the valley|musk,cedar|SPRING
+Washington Square|Woody Aromatic|bergamot,lavender|iris,jasmine|vetiver,amber|ALL
+West Side|Floral|bergamot|rose,peony|vanilla,amber|COLDDAY
+## Burberry
+Her Elixir|Oriental Gourmand|strawberry,raspberry|jasmine|vanilla,amber|COLD
+My Burberry Black|Floral Chypre|peach|rose,jasmine|patchouli,amber|COLD
+My Blush|Floral Fruity|lemon,pomegranate|rose,geranium|wisteria,woody notes|SPRING
+## Bvlgari
+Au The Blanc|Citrus Aromatic|bergamot|white tea,pepper|musk|WARM
+Eau The Noir|Woody Spicy|bergamot|black tea|vetiver,oakmoss|COLDDAY
+Baciami|Oriental Floral|pink pepper|jasmine,iris|vanilla,amber|COLDDAY
+Splendida Magnolia|Floral|bergamot,mandarin|magnolia|musk,sandalwood|SPRING
+Rock'N'Rome|Floral|bergamot|rose,jasmine|vanilla,musk|ALL
+Tygar|Citrus Aromatic|grapefruit|ambroxan|woody notes|WARM
+Le Gemme Empyr|Woody Spicy|bergamot,cardamom|cypress,juniper|leather,amber|ALL
+Garanat|Oriental Spicy|pink pepper|cinnamon,cardamom|benzoin,amber|COLD
+## Byredo
+La Tulipe|Floral|rhubarb,freesia|tulip|vetiver,woody notes|SPRING
+Oud Immortel|Oriental Woody|limoncello,cardamom|incense,papyrus|oud,patchouli,tobacco leaf|COLD
+De Los Santos|Woody Aromatic|sage,lavender|white flowers|cedar,musk|ALL
+Marijuana|Woody|cannabis|green notes|woody notes,vanilla|ALL
+## Cacharel
+Amor Amor Forbidden Kiss|Oriental Floral|raspberry|orchid,jasmine|vanilla,musk|COLDDAY
+## Calvin Klein (CK)
+Euphoria Gold|Oriental Woody|pepper,cardamom|violet|amber,patchouli|COLD
+## Caroline Herrera (CH)
+212 Sexy Woman|Oriental Floral|mandarin,bergamot,pink pepper|gardenia,rose|vanilla,musk,cotton candy|COLDDAY
+Chic M|Woody Aromatic|watermelon,mint|cardamom,sage|cedar,musk|WARM
+Chic W|Floral Fruity|watermelon,tomato leaf|jasmine,rose|musk,vanilla|SPRING
+Good Girl Velvet Fatali|Oriental Floral|almond|tuberose,jasmine|tonka bean,cacao|COLD
+## Cartier
+Carat|Floral|hyacinth|violet,iris,ylang-ylang|musk|SPRING
+## Chanel
+Cristalle Eau Verte|Citrus Aromatic|lemon,neroli|magnolia,jasmine|musk,woody notes|WARM
+Paris-Paris|Floral|bergamot|rose,jasmine|patchouli,musk|SPRING
+Paris Venise|Oriental Vanilla|lemon,orange|jasmine|vanilla,tonka bean|COLDDAY
+## Christian Dior
+Midnight Charm|Floral|pink pepper|rose|vanilla,patchouli|COLDDAY
+Bois Talisman|Woody|aldehydes|woody notes|benzoin,labdanum|COLD
+Cuir Cannage|Leather|pink pepper|leather,jasmine|iris,woody notes|COLDDAY
+Blooming Bouquet|Floral|bergamot|peony,rose|white musk|SPRING
+Rouge Trafalgar Dior|Floral Fruity|cherry|rose|musk|SPRING
+## Clive Christian
+No.1 For Women|Floral|bergamot,lime|rose,jasmine,orris|sandalwood,vanilla|ALL
+## Creed
+Aventus Absolu|Fruity Chypre|pineapple,bergamot|birch,patchouli|musk,ambergris|ALL
+Fleurs de Gardenia|Floral|bergamot|gardenia,jasmine|musk,woody notes|SPRING
+Love In Black|Floral|bergamot|violet,iris,rose|musk,vanilla|COLDDAY
+Tabarome|Woody Spicy|bergamot,ginger|tobacco leaf|amber,sandalwood|COLD
+Vetiver Geranium|Woody Aromatic|bergamot|geranium|vetiver,musk|ALL
+Spring Flowers|Floral Fruity|apple,peach,melon|jasmine,rose|musk|SPRING
+Delphinus|Floral|bergamot|lily of the valley,rose|musk,cedar|ALL
+## David Beckham
+Instinct|Woody Aromatic|orange,grapefruit|cardamom|amber,musk|ALL
+## Dolce & Gabbana
+Dolce Garden|Floral Gourmand|mandarin|frangipani,ylang-ylang|coconut,almond,vanilla|WARM
+Dolce Peony|Floral|bergamot|peony|musk|SPRING
+The Only One|Oriental Floral|bergamot,violet|coffee,iris|caramel,patchouli,vetiver|COLD
+Velvet Patchouli|Woody|bergamot|patchouli|vanilla,musk|COLD
+## Donna Karan (DKNY)
+Dkny|Floral|citrus|lily,orchid|musk,woody notes|SPRING
+## Elie Saab
+White|Floral|bergamot|orange blossom|musk,woody notes|SPRING
+## Elizabeth Arden
+Arden White Tea|Floral|mandarin|white tea|musk|WARM
+## Escada
+Celebrate|Floral|pear|jasmine,rose|musk,woody notes|SPRING
+Santorini Sunrise|Floral Fruity|peach,blackcurrant|rose|musk|WARM
+Tropical Punch|Floral Fruity|pineapple,orange|peony,rose|caramel,musk|WARM
+## Essential Parfums
+Bois Imperial|Woody|thyme,basil|vetiver,patchouli|cedar,ambrox|ALL
+Nice Bergamote|Citrus Aromatic|bergamot|neroli,rosemary|woody notes,musk|WARM
+## Estee Lauder
+Pleasures Intense|Floral|lychee,pink pepper|lily,peony|patchouli,cedar|ALL
+## Ex Nihilo
+Citizen X|Woody|bergamot|iris|leather,vetiver|ALL
+Devil Tender|Oriental Gourmand|pear|caramel,tonka bean|vanilla,cashmere wood|COLD
+Iris Porcelana|Floral|bergamot|iris|musk,leather|ALL
+Santal Calling|Woody|cardamom|sandalwood|musk,amber|ALL
+Sweet Morphine|Oriental Gourmand|pear|orange blossom|vanilla,musk|COLDDAY
+The Hedonist|Oriental Vanilla|bergamot|vanilla,jasmine|musk,woody notes|COLDDAY
+Venenum Kiss|Oriental Spicy|bergamot,rum|cinnamon|vanilla,woody notes|COLD
+Vendomania|Floral|pear|rose,jasmine|musk|SPRING
+## Fendi
+Fendi|Floral Chypre|mandarin|rose,jasmine|patchouli,musk|ALL
+## Frederic Malle
+The Night|Oriental Woody|saffron|rose,oud|amber,musk|COLD
+Superstitious|Floral Aldehydic|aldehydes,peach|rose,jasmine|vetiver,patchouli|ALL
+## Giardini Di Toscana
+Bianco Latte|Oriental Gourmand|caramel|honey,coumarin|vanilla,musk|COLD
+## Giorgio Armani
+Stronger With You Leather|Leather|cardamom|leather|vanilla,chestnut|COLD
+Stronger With You Tobacco|Oriental Spicy|cardamom|tobacco leaf|vanilla,chestnut|COLD
+Stronger With You Powerfully|Oriental Spicy|pink pepper|lavender|vanilla,amber|COLD
+Si Passion Eclat|Floral Fruity|blackcurrant,pear|rose|vanilla|SPRING
+Terra di Gioia|Floral|mandarin|jasmine|woody notes,musk|ALL
+Eau Cedre|Woody|lemon,pink pepper|cedar|vetiver,musk|ALL
+## Giorgio Armani Prive
+Bleu Lazuli|Woody Aromatic|bergamot|lavender|cedar,musk|ALL
+Rouge Malachite|Floral|ylang-ylang|tuberose,jasmine|benzoin,vanilla|COLDDAY
+Vert Malachite|Floral|bergamot|lily,jasmine|benzoin,vanilla|ALL
+Pivoine Suzhou|Floral|bergamot|peony,rose|musk|SPRING
+Ambre Orient|Oriental Woody|saffron|amber,oud|vanilla,musk|COLD
+## Givenchy
+Gentleman Society|Woody Floral Musk|sage,cardamom|daffodil,iris|vetiver,vanilla|ALL
+Gentleman Eau De Parfume Reserve Privee|Woody|bergamot|iris,whiskey|vanilla,woody notes|COLD
+L'İnterdit Rouge|Floral|blood orange,ginger|tuberose|sandalwood,patchouli|COLDDAY
+Play W|Floral|bergamot|tiare,jasmine|amber,musk|ALL
+Very Irresistible Electric Rose|Floral|grapefruit|rose|musk|SPRING
+## Gucci
+Guilty Black W|Floral Chypre|pink pepper|peach,geranium|patchouli,amber|COLD
+By Gucci W|Floral Chypre|tangerine|rose,jasmine|patchouli,musk|ALL
+Rush 2|Floral|freesia|jasmine,rose|musk|SPRING
+Oud|Oriental Woody|pear,saffron|rose,oud|amber,musk|COLD
+## Guerlain
+Aqua Allegoria Mandarine Basilic|Citrus Aromatic|mandarin,orange|basil,green tea|amber,sandalwood|WARM
+Santal Royal|Oriental Woody|neroli|sandalwood,rose|oud,leather|COLD
+Patchouli Ardent|Woody|patchouli|ginger|incense,vanilla|COLDDAY
+French Kiss|Floral|raspberry|rose|musk,woody notes|SPRING
+## Guy Laroche
+Fidji|Floral|bergamot,lemon|jasmine,carnation|musk,vetiver|SPRING
+## Hermes
+Ambre Narguile|Oriental Gourmand|honey,cinnamon|rum,caramel|tonka bean,vanilla|COLD
+Eau Tres Fraiche|Citrus Aromatic|lemon,grapefruit|bergamot|vetiver|WARM
+Terre d`Hermes Black|Woody|orange|pepper|vetiver,cedar|ALL
+## Hugo Boss
+Baldessarini|Woody Spicy|bergamot,mandarin|cardamom,ginger|amber,patchouli|ALL
+Hugo Red|Woody Aromatic|pineapple,grapefruit|cedar|amber,woody notes|ALL
+## Initio
+Psychedelic Love|Floral Musk|bergamot|iris,musk|amber,woody notes|ALL
+Narcotic Delight|Oriental Gourmand|cherry,bitter almond|cognac|vanilla,woody notes|COLD
+Blessed Baraka|Woody|pink pepper|sandalwood|musk,amber|ALL
+Aphrodisiac Absolute|Oriental Woody|bergamot|oud|amber,vanilla|COLD
+## Issey Miyake
+L'Eau Bleue d'Issey Pour Homme|Woody Aquatic|yuzu|sea notes|vetiver,musk|WARM
+A Scent|Floral|galbanum|jasmine,hyacinth|musk|SPRING
+## Jean Paul Gaultier
+Le Male Aviator|Aromatic Fougère|mandarin,mint|lavender|woody notes,musk|ALL
+Scandal Pour Homme Absolu|Oriental Gourmand|mandarin|caramel,tonka bean|vetiver,woody notes|COLD
+## Jennifer Lopez
+Still|Floral|pink grapefruit|jasmine,lily|musk,vanilla|ALL
+## Jo Malone
+Blackberry|Floral Fruity|blackberry|bay leaf|cedar,vetiver|SPRING
+Orange Blossom|Floral|clementine|orange blossom|white musk|WARM
+Star Magnolia|Floral|bergamot|magnolia|musk|SPRING
+Bitter Mandarin|Citrus Aromatic|mandarin|basil|woody notes|WARM
+## Juliette Has A Gun
+Lady Vengeance|Floral|rose|rose|vanilla,patchouli|ALL
+Lust for Sun|Floral|bergamot|tiare|musk|WARM
+## Kayali
+Yum Pistachio Gelato|Oriental Gourmand|pistachio|whipped cream|vanilla,musk|COLDDAY
+Eden Juisy Apple|Floral Fruity|apple,bergamot|rose|vanilla,musk|SPRING
+## Kenzo
+Aqua|Floral Aquatic|bergamot|sea notes|musk|WARM
+## Kilian
+Angel's Share Paradis|Oriental Gourmand|cognac|cinnamon|praline,vanilla|COLD
+Good Girl Gone Bad Extreme|Floral|jasmine|tuberose,rose|amber,musk|COLDDAY
+Liasons Dangereuses|Floral Fruity|plum,blackcurrant|rose|sandalwood,musk|COLDDAY
+Blue Moon Ginger Dash|Citrus Aromatic|ginger,bergamot|rose|musk|WARM
+Sacred Wood|Woody|cardamom|sandalwood|milk,musk|ALL
+Smoke For The Soul|Woody Aromatic|cannabis|incense|vetiver,woody notes|COLD
+Lemon in Zest|Citrus Aromatic|lemon,bergamot|ginger|musk|WARM
+Amber Oud Kilian|Oriental Woody|saffron|oud|amber,vanilla|COLD
+Beyond Love|Floral|tuberose|tuberose|musk|SPRING
+Criminal Of Love|Floral Fruity|blackcurrant|rose|musk,amber|ALL
+Forbidden Games|Floral Fruity|apple,plum|jasmine|vanilla,musk|COLDDAY
+Water Calligraphy|Citrus Aromatic|lemon|sea notes|musk|WARM
+In The City Of Sin|Oriental Spicy|pink pepper|plum,rose|vanilla,amber|COLD
+## Lacoste
+Pour Elle|Floral|pink pepper|rose|musk|ALL
+Essential Sport|Woody Aromatic|lemon|mint|cedar,musk|WARM
+Timeless|Woody Aromatic|bergamot|cardamom|vetiver,musk|ALL
+## Lancome
+La Nuit Tresor Dentelle de Roses|Oriental Floral|raspberry|rose|vanilla,praline|COLD
+Oud Bouquet|Oriental Woody|saffron|rose|oud,amber|COLD
+## Lattafa
+Eclaire|Oriental Gourmand|caramel|milk,honey|vanilla,musk|COLDDAY
+Teriaq Intense|Oriental Gourmand|cinnamon|caramel,honey|vanilla,leather|COLD
+## Louis Vuitton
+Apogee|Floral|bergamot|lily of the valley,jasmine|musk,woody notes|SPRING
+Cactus Garden|Citrus Aromatic|bergamot|green tea|musk|WARM
+California Dream|Citrus Aromatic|mandarin,pepper|ambroxan|benzoin|WARM
+Contre Moi|Oriental Vanilla|bergamot|orange blossom,vanilla|vanilla,musk|COLDDAY
+Dans La Peau|Leather|apricot|leather|musk|COLDDAY
+Matiere Noire|Floral Woody|blackcurrant|rose,jasmine|oud,patchouli|COLDDAY
+On the Beach|Citrus Aromatic|yuzu,neroli|pink pepper|vanilla,musk|WARM
+Pacific Chill|Citrus Aromatic|blackcurrant,lemon|mint,basil|apricot,musk|WARM
+Rose Des Vents|Floral|bergamot|rose|cedar,musk|SPRING
+Stellar Times|Oriental Amber|bergamot|amber|benzoin,vanilla|COLD
+Symphony|Citrus Aromatic|grapefruit|ginger|musk,woody notes|WARM
+Turbulences|Floral|lemon|tuberose|vanilla,musk|ALL
+## M. F. Kurkdijian
+L homme Ala Rose|Floral Woody|grapefruit|rose|ambroxan,cedar|ALL
+Lumiere Noir|Floral Chypre|cumin|rose|patchouli|COLDDAY
+## Mancera
+Silver Blue|Woody Aquatic|bergamot|sea notes|vetiver,musk|WARM
+Gold Aoud|Oriental Woody|saffron|oud,rose|amber,vanilla|COLD
+## Marc Jacobs
+Daisy Skies|Floral Fruity|blueberry,orange|jasmine|musk,woody notes|SPRING
+## Memo
+Russian Leather|Leather|mint,lavender|leather|tonka bean,amber|COLDDAY
+İrish Leather|Leather|juniper,pink pepper|leather|tonka bean,amber|COLDDAY
+Quartier Latin|Woody Spicy|rum|cardamom,lavender|amber,woody notes|COLD
+## Molecule
+01 Escentric Iris|Woody|iris|Iso E Super|woody notes|ALL
+01 Escentric Mandarin|Citrus Aromatic|mandarin|Iso E Super|woody notes|ALL
+01 Escentric Patchoulli|Woody|patchouli|Iso E Super|woody notes|ALL
+01 + Black Tea Escentric|Woody|black tea|Iso E Super|woody notes|ALL
+## Montale
+Black Musk|Floral Musk|bergamot|rose,jasmine|musk,amber|ALL
+Dark Aoud|Oriental Woody|rose|oud|patchouli,amber|COLD
+Aoud Roses|Floral|rose|oud|musk|COLDDAY
+Roses Elixir|Floral|rose|rose|musk,amber|ALL
+Roses Musk Intense|Floral|rose|jasmine|musk,amber|ALL
+Orange Flowers|Floral|orange|orange blossom|musk|WARM
+Fruits of the Musk|Floral Fruity|red berries|rose|musk,vanilla|SPRING
+Pretty Fruity|Floral Fruity|tropical fruits|rose|musk,amber|WARM
+Vanille Absolu|Oriental Vanilla|orange blossom|vanilla|musk,amber|COLD
+Santal Wood|Woody|cardamom|sandalwood|musk,amber|ALL
+So Amber|Oriental Amber|bergamot|amber|vanilla,musk|COLD
+Oud Tobacco|Oriental Woody|tobacco leaf|oud|amber,vanilla|COLD
+Aoud Safran|Oriental Woody|saffron|oud,rose|amber|COLD
+Amber Musk Montale|Oriental Amber|bergamot|amber|musk,vanilla|COLD
+## Montblanc
+Femme de Montblanc|Floral|bergamot|rose,jasmine|musk|SPRING
+## Narciso Rodriguez
+Blue Noir For Him|Woody Aromatic|bergamot,cardamom|nutmeg|cedar,musk|ALL
+## Nasomatto
+China White|Floral Musk|iris|white flowers|musk|ALL
+Duro|Woody|incense|woody notes|leather,amber|COLD
+Narcotic Venus|Floral|tuberose|white flowers|musk,amber|ALL
+Pardon|Oriental Gourmand|cacao|sandalwood|tonka bean,musk|COLD
+Silver Musk|Floral Musk||musk|amber|ALL
+Absinth|Woody Aromatic|absinthe|green notes|woody notes|ALL
+Hindu Grass|Woody|hay|incense|sandalwood,musk|ALL
+## Nautica
+Voyage|Woody Aquatic|apple,green notes|lotus,mimosa|cedar,musk|WARM
+## Nina Ricci
+Bella|Floral Fruity|rhubarb,mandarin|apple|musk,vanilla|SPRING
+Love by Nina|Floral Fruity|lemon,raspberry|rose|musk|SPRING
+## Nishane
+Karagoz|Floral Fruity|pineapple,grapefruit|jasmine|amber,musk|ALL
+## Orto Parisi
+Megamare|Woody Aquatic|seaweed|sea notes|ambergris,musk|ALL
+Terroni|Woody|incense|pepper|vetiver,leather|COLDDAY
+Bergamask|Citrus Aromatic|bergamot|woody notes|musk|ALL
+## Paco Rabanne
+Black XS L’Exces|Oriental Spicy|lemon|cinnamon|leather,amber|COLD
+Black XS Los Angeles W|Floral Fruity|cherry|rose|patchouli|ALL
+Black XS L'Aphrodisiaque|Oriental Spicy|pink pepper|tonka bean|vanilla,woody notes|COLD
+## Paloma Picasso
+Paloma Picasso|Floral Chypre|bergamot|rose,jasmine|patchouli,oakmoss|COLDDAY
+## Parfums de Marly
+Darcy|Floral|bergamot,pear|jasmine,rose|musk,vanilla|SPRING
+## Penhaligon's
+The Coveted Duchess Rose|Floral|mandarin|rose|musk,woody notes|SPRING
+Changing Constance|Oriental Gourmand|cardamom|caramel|vanilla,tonka bean|COLD
+## Prada
+Candy Floral|Floral Gourmand|peony|caramel|musk|SPRING
+Iris|Floral|orange blossom|iris|cedar,musk|ALL
+L’Eau Ambre|Oriental Amber|bergamot|amber|vanilla,musk|COLDDAY
+Paradigme Prada|Woody Aromatic|bergamot|geranium|amber,woody notes|ALL
+Luna Rossa Extreme|Oriental Spicy|pepper|lavender|vanilla,amber|COLD
+## Ralph Lauren
+Polo Red Rush|Citrus Aromatic|lemon,grapefruit|mint|woody notes,musk|WARM
+Notorious|Floral|blackcurrant|rose|musk,vanilla|COLDDAY
+## Robert Piguet
+Visa 2007|Floral Fruity|pear|rose,jasmine|vanilla,musk|ALL
+## Roberto Cavalli
+Just|Floral|pink pepper|jasmine|vanilla,musk|ALL
+## Roja Dove
+Elixir|Floral|bergamot|jasmine,rose|vanilla,amber|ALL
+Enigma|Oriental Gourmand|cognac|ginger|tobacco leaf,vanilla|COLD
+Oligarch|Woody Spicy|bergamot|pepper|leather,amber|ALL
+Amber Aoud|Oriental Woody|bergamot|rose|oud,amber|COLD
+Musk Aoud|Oriental Woody|rose|musk|oud,amber|COLD
+## Salvatore Ferragamo
+Incanto Shine|Floral Fruity|passion fruit,pineapple|peony|musk|WARM
+Incanto Charms|Floral Fruity|pomegranate,mandarin|freesia|musk|SPRING
+Emozione|Floral Fruity|peach|rose|musk,woody notes|SPRING
+## Serge Lutens
+Chypre Rouge|Fruity Chypre|thyme|honey|patchouli,moss|COLD
+Santal Blanc|Woody|pink pepper|sandalwood|musk|ALL
+## Shiseido
+Ginza|Floral|pink pepper|jasmine|sandalwood,vetiver|ALL
+Zen M|Woody Aromatic|bergamot|mint|cedar,musk|ALL
+## Sisley
+Eau De Soir|Floral Chypre|mandarin|rose,jasmine|patchouli,amber|COLD
+## Spicebomb
+Night Vision Spicebomb|Oriental Spicy|grapefruit,cardamom|apple|tonka bean,woody notes|COLD
+## Stefano Ricci
+Royal Eagle Gold|Woody Spicy|bergamot|pepper|leather,amber|ALL
+## Tiffany
+Co Tiffany|Floral|mandarin|iris|musk|ALL
+## Tiziana Terenzi
+Cassiopea|Oriental Gourmand|apple,blackcurrant|caramel|vanilla,amber|COLD
+Draco|Oriental Woody|saffron|oud|amber,leather|COLD
+Gumin|Woody Aromatic|bergamot|lavender|musk,amber|ALL
+## Tom Ford
+Noir De Noir|Oriental Floral|saffron|rose|oud,patchouli,vanilla|COLD
+Oud Minerale|Woody Aquatic|sea notes|oud|ambergris|ALL
+Soleil Neige|Floral|bergamot,carrot seeds|jasmine,orange blossom|benzoin,vanilla|ALL
+Vanilla Sex|Oriental Vanilla|almond|vanilla|sandalwood,tonka bean|COLD
+## Trussardi
+My Land|Woody Aromatic|bergamot,lemon|lavender|leather,woody notes|ALL
+My Name|Floral|bergamot|iris,rose|musk|ALL
+Inside|Floral|pink pepper|rose|musk|ALL
+Blue Land|Woody Aquatic|lemon|sea notes|musk,woody notes|WARM
+## Valentino
+Absolu|Floral|bergamot|rose|leather,patchouli|COLDDAY
+## Van Cleff & Arpels
+Bois Dore|Woody|ginger|sandalwood|vanilla,amber|COLDDAY
+## Versace
+Dylan Purple|Floral Fruity|pear,bergamot|osmanthus|ambroxan,musk|SPRING
+Versace|Floral|rose|jasmine|musk|ALL
+## Victoria’s Secret
+Bombshell Beach|Floral Fruity|pineapple|frangipani|musk|WARM
+Bare Rose|Floral|rose|rose|musk|SPRING
+Bare|Floral Musk|pink pepper|iris|musk|ALL
+Bombshell Wild Flower|Floral|grapefruit|jasmine,rose|musk|SPRING
+Bombshell Pink Diamonds|Floral Fruity|red berries|peony|musk|SPRING
+Bombshell Sundrenched|Floral Fruity|lemon|peony,frangipani|musk|WARM
+Rose Bergamot|Floral|bergamot|rose|musk|SPRING
+Velvet Petals|Floral Gourmand|coconut|almond|musk,vanilla|ALL
+Aqua Kiss|Floral|lemon|freesia|musk|WARM
+Xo|Floral|bergamot|jasmine,peony|musk|SPRING
+Just Kiss|Floral Fruity|strawberry|peony|musk|SPRING
+Lavander & Vanilla Relax|Oriental Vanilla|lavender|vanilla|musk|COLDDAY
+Vanilla Sapphire Orchid|Oriental Vanilla|orchid|vanilla|musk|COLDDAY
+## Xerjoff
+Casamorati 1888|Oriental Gourmand|bergamot|almond,heliotrope|vanilla,tonka bean|COLDDAY
+Gran Ballo|Floral|bergamot|jasmine,rose|vanilla,musk|ALL
+La Tosca|Floral|bergamot|rose,jasmine|vanilla,musk|ALL
+Lira|Oriental Gourmand|orange,bergamot|caramel,licorice|vanilla,musk|COLD
+Mefisto Gentiluomo|Citrus Aromatic|bergamot,lemon|lavender|musk,amber|WARM
+Uden|Oriental Woody|saffron|oud|amber,musk|COLD
+Don|Floral|bergamot|jasmine|vanilla|ALL
+Torino 24|Citrus Aromatic|lemon|ginger|musk|WARM
+## Yves Saint Laurent (YSL)
+Libre L'Absolu Platine|Floral|lavender|orange blossom|vanilla|ALL
+L’Homme Libre Cologne LibreTonic|Citrus Aromatic|lemon|lavender|musk|WARM
+Manifesto L’Eclat|Floral|bergamot|jasmine|vanilla,musk|ALL
+Supreme Bouquet|Floral|bergamot|tuberose|musk,vanilla|ALL
+## Zara
+Rose Zara|Floral|rose|rose|musk|SPRING
+Oud|Oriental Woody|saffron|oud|amber|COLD
+## Zielinski & Rozen
+Black Pepper & Amber. Neroli|Woody Spicy|black pepper,neroli|amber|musk|ALL
+Lemongrass & Vetiver, Amber|Citrus Aromatic|lemongrass|vetiver|amber|ALL
+Oakmoss & Amber|Woody|oakmoss|amber|musk|ALL
+Orange & Jasmine, Vanilla|Floral|orange|jasmine|vanilla|ALL
+Vanilla Blend|Oriental Vanilla|bergamot|vanilla|musk|COLDDAY
+## Monoətirlər
+Mango|Citrus Fruity|mango|tropical fruits|musk|WARM

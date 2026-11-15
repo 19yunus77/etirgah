@@ -2,7 +2,7 @@ import pandas as pd
 def load():
     u=pd.read_csv('unique.csv'); bases=set(u.base); brands=set(u.Qrup)
     data={}; unmatched=[]
-    for f in ['bulk1.txt','bulk2.txt','bulk3.txt','bulk4.txt']:
+    for f in ['bulk1.txt','bulk2.txt','bulk3.txt','bulk4.txt','bulk5.txt','bulk6.txt']:
         brand=None
         for line in open(f,encoding='utf8'):
             line=line.strip()
