@@ -180,10 +180,11 @@ footer{border-top:1px solid var(--line);padding:24px 0 40px;color:var(--muted);f
 </aside>
 <div class="toast" id="toast"></div>
 
+<script src="config.js"></script>
 <script>
-/* ===== settings: put the shop's WhatsApp number here, digits only, e.g. "994501234567" ===== */
-const WHATSAPP = "";
-const DEFAULT_GRAMS = 10;
+const CFG = window.ETIRGAH_CONFIG || {};
+const WHATSAPP = String(CFG.whatsapp || "").replace(/\D/g, "");
+const DEFAULT_GRAMS = +CFG.defaultGrams || 10;
 
 const DATA = __DATA__;
 const T = {
