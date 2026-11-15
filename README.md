@@ -1,4 +1,4 @@
-# Ətirgah
+# Ətirnamə
 
 Perfume-oil storefront (sold by the gram). Static site: `index.html`.
 
