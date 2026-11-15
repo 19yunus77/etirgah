@@ -235,7 +235,9 @@ P.forEach(p=>{p.fk=famKey(p.inf); p.sk=seaKey(p.inf);
   p.hay=(p.n+" "+(p.inf?[0,1,2].map(l=>[p.inf.f[l],p.inf.t[l],p.inf.h[l],p.inf.b[l]].join(" ")).join(" "):"")).toLowerCase();});
 
 const st={q:"",g:"",fam:"",season:"",brand:"",sort:0,shown:48};
-let cart=[]; try{cart=JSON.parse(localStorage.getItem("eg_cart")||"[]")}catch(e){}
+let cart=[]; try{const byName=new Map(P.map(p=>[p.n,p.id]));
+  cart=JSON.parse(localStorage.getItem("eg_cart2")||"[]").filter(c=>byName.has(c.n)).map(c=>({id:byName.get(c.n),g:c.g}));
+  localStorage.removeItem("eg_cart");}catch(e){cart=[]}
 const $=id=>document.getElementById(id);
 const t=k=>Array.isArray(T[k])?T[k][L]:k;
 const money=v=>v.toFixed(2).replace(/\.00$/,"")+" ₼";
@@ -244,7 +246,7 @@ function mono(b){const w=b.replace(/\(.*?\)/g,"").trim().split(/\s+/);return (w.
 function ph(p,big){const c=FAMCOL[p.fk];return `<div class="ph" style="background:linear-gradient(135deg,${c[0]},${c[1]})">
   <span class="mono">${esc(mono(p.b))}</span>${p.inf?`<span class="fam">${esc(T.fam[p.fk]?T.fam[p.fk][L]:"")}</span>`:""}<span class="g">${esc(T[p.g]?T[p.g][L]:"")}</span></div>`;}
 
-function save(){try{localStorage.setItem("eg_cart",JSON.stringify(cart));localStorage.setItem("eg_lang",L)}catch(e){}}
+function save(){try{localStorage.setItem("eg_cart2",JSON.stringify(cart.map(c=>({n:P[c.id].n,g:c.g}))));localStorage.setItem("eg_lang",L)}catch(e){}}
 function toast(m){const e=$("toast");e.textContent=m;e.classList.add("show");clearTimeout(toast.t);toast.t=setTimeout(()=>e.classList.remove("show"),1600);}
 
 function staticText(){
